@@ -53,5 +53,12 @@ public class Operator {
 		
 		String str3 = str1 + str1;
 		System.out.println("str3 = " + str3);
+
+		String hi1 = "Hi";
+		int hi2 = 10;
+		String hi3 = hi1 + hi2;
+		System.out.println(hi1 + hi2);
+		String hi4 = hi3 + hi2;
+		System.out.println(hi4);
 	}
 }
