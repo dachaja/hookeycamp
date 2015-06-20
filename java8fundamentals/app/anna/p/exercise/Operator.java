@@ -44,5 +44,11 @@ public class Operator {
 		
 		String str2 = "Hello";
 		String str1 = i + j + str2;
+		
+		int num1;
+		int num2;
+		
+		num1 = num2 = 25;
+		
 	}
 }
