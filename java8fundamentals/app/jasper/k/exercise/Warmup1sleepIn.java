@@ -14,7 +14,7 @@ public class Warmup1sleepIn {
 		} else {
 			if (vacation == true) {
 				boolean sleepIn;
-				return sleepIn = true;
+				return sleepIn = false;
 			} else {
 				boolean sleepIn;
 				return sleepIn = true;

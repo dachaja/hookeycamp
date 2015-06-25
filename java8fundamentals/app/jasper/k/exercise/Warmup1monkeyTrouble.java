@@ -24,13 +24,13 @@ public class Warmup1monkeyTrouble {
 	}
 	public static void main(String[] args) {
 		boolean result = monkeyTrouble(true, true);
-		System.out.println(" aSmile = true, bSmile = true" + result);
+		System.out.println(" aSmile = true, bSmile = true" +  result);
 		result = monkeyTrouble(true, false);
-		System.out.println(" aSmile = true, bSmile = false" + result);
+		System.out.println(" aSmile = true, bSmile = false" +  result);
 		result = monkeyTrouble(false, true);
-		System.out.println(" aSmile = false, bSmile = true" + result);
+		System.out.println(" aSmile = false, bSmile = true" +  result);
 		result = monkeyTrouble(false, false);
-		System.out.println(" aSmile = false, bSmile = false" + result);
+		System.out.println(" aSmile = false, bSmile = false" +  result);
 		// http://codingbat.com/prob/p181646
 		
 
