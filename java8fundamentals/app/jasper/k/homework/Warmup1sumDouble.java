@@ -7,6 +7,5 @@ public class Warmup1sumDouble {
 				sum *= 2;
 			}
 			return sum;
-			
 		}
 	}
