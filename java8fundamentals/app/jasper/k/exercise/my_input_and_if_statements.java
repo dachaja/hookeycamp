@@ -32,5 +32,14 @@ public class my_input_and_if_statements {
 	            {
 	            System.out.println(" Welcome to one of my first java applications. I hope you like it");
 	            }
-			}
+	        
+	        //Anna
+	        if (("male".equals(gender)) && ("brendan".equals(name))) {
+	        	System.out.println("blah blah");
+	    	} else if (("female".equals(gender)) && ("nicole".equals(name))) {
+	    		System.out.println("blah blah 2");
+	    	} else {
+	    		System.out.println(" Welcome to one of my first java applications. I hope you like it");
+	    	}
+		}
 	}
