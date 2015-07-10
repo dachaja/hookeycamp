@@ -2,7 +2,9 @@ package jasper.k.exercise;
 
 public class IfElseEx4 {
 	public static void main(String[] args) {
-		String title = "";
+		String title = ""; // empty
+		String title1; // null
+		
 		boolean isMale = true;
 		if (isMale) {
 			title = "Mr.";
