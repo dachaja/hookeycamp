@@ -1,0 +1,15 @@
+package anna.p.exercise;
+
+public class BlockStatement {
+	public static void main(String[] args) {
+		{
+			int num1 = 10;
+			{
+				num1 = 100;
+				int num2 = 200;
+				num2 = 678;
+			}
+			int num2 = 200;
+		}
+	}
+}
