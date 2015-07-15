@@ -9,5 +9,15 @@ public class AndOperator {
 		System.out.println("b= " + b + ",i=" + i + ",j= " + j);
 		b = (i > 25 & ((j = 20) > 15));
 		System.out.println("b= " + b + ",i=" + i + ",j= " + j);
+		
+		char ch1 = (char)((Math.random() * 10) + 1);
+		char ch2 = (char)((Math.random() * 10) + 1);
+		char ch3 = (char)((Math.random() * 10) + 1);
+		char ch4 = (char)((Math.random() * 10) + 1);
+		char ch5 = (char)((Math.random() * 10) + 1);
+		//int value = (int)c.charValue();
+		String str = (int)ch1 + ""+ (int)ch2 + "" + (int)ch3 + "" + (int)ch4 + "" + (int)ch5;
+		System.out.println(str);
+ 		
 	}
 }
