@@ -13,8 +13,8 @@ public class PrintMatrix {
 				}
 			}
 		// Print a new line, except after the last line
-		if (i < 3) {
-			System.out.println();
+			if (i < 3) {
+				System.out.println();
 		}
 		}	
 	}
