@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class HanaroAppSigningUp {
 	public static void main(String [] args)
 	   {  
-		String userPassWord , userEmail , yesOrNo , certifiNum; 
+		int yesOrNo = 0;
+		String userPassWord , userEmail , certifiNum; 
 		Scanner signUp = new Scanner(System.in);
 		System.out.println("Write your Email");
 		userEmail = signUp.next();
@@ -14,14 +15,14 @@ public class HanaroAppSigningUp {
 		System.out.print("'"+userEmail+"'");
 		System.out.print( " is your Email?");
 		System.out.println(" Write 'Yes' or 'NO'");
-		yesOrNo = signUp.next();
+		yesOrNo = signUp.next().equalsIgnoreCase("yes") ? 1 : 0;
 		System.out.println(yesOrNo);
 		
 		switch (yesOrNo) {
-			case "Yes" :
+			case 1 :
 			System.out.println("Certification Number will send to your Email");
 			break;
-			case "No" :
+			case 0 :
 			System.out.println("저의 한계.... goto line 10");
 			break;
 			default :
