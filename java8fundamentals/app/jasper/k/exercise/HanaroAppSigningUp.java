@@ -37,9 +37,10 @@ public class HanaroAppSigningUp {
 		char ranAlf1,ranAlf2;
 		ranAlf1 = (char)(Math.random() * 21 + 41);
 		ranAlf2 = (char)(Math.random() * 21 + 41);
+		int ranNUm1 = (int)ranNum1;
 		System.out.println("teacher how to change ranNum1 to String?");
-		System.out.println(ranNum1+ranNum2+ranNum3
-				+ranNum4+ranNum5+ranNum6+ranAlf1+ranAlf2);
+		System.out.println(ranNUm1+" "+ " "+ ranNum2 +" "+ranNum3+" "
+				+ranNum4 +" "+ranNum5 +" "+ranNum6 +" "+ranAlf1 +" "+ranAlf2);
 		
 		System.out.println("이메일 보내기는 모르곘어요");
 		certifiNum = signUp.next();
