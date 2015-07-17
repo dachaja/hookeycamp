@@ -1,4 +1,4 @@
-package jasper.k.exercise;
+package jasper.k.hanaro.homework;
 
 import java.util.Scanner;
 

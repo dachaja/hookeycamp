@@ -9,5 +9,19 @@ public class CheckPassFail {
 		} else {
 			System.out.println("FAIL");
 		}
+		
+//		for(int i=10, j=20, k=30, s=40;;){
+//		
+//		}
+		
+		int i = 10; //initialization. declaration, assignment.
+		
+		System.out.println("Hello"); // statement.
+		i++; // statement.
+		
+		
+		for(System.out.println("Hello"), i++;;) {
+			
+		}
 	}
 }
