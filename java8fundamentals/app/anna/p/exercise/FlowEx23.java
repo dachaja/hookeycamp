@@ -7,7 +7,7 @@ public class FlowEx23 {
 		
 		// i  : 0,1,2,3,4,5,6....
 		//sum : 0,1,3,5,8,12,17,23...
-		// sum + i : 0,2,9,8
+		// sum + i : 2,5,9,
 		while (sum + i <= 100) {
 			sum += ++i;
 			System.out.println(i + " - " + sum);

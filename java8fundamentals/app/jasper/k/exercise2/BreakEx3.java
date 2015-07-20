@@ -1,6 +1,5 @@
 package jasper.k.exercise2;
 
-import ch.qos.logback.core.net.SyslogOutputStream;
 
 public class BreakEx3 {
 	public static void main(String[] args) {
