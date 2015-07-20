@@ -9,7 +9,7 @@ public class FlowEx25 {
 			if(sum > 100)
 				break;
 			++i;
-			 sum += 1;
+			 sum += i;
 		} //end of while
 		System.out.println(" i= " + i);
 		System.out.println("sum= " + sum);
