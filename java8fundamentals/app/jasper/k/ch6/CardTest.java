@@ -3,8 +3,8 @@ package jasper.k.ch6;
 public class CardTest {
 
 	public static void main(String[] args) {
-		System.out.println("Card.width = " + Card.width);
-		System.out.println("Card.hight = " + Card.height);
+		System.out.println("Card.width = " + Card1.width);
+		System.out.println("Card.height = " + Card1.height);
 		
 		Card1 c1 = new Card1();
 		c1.kind = "HEART";
