@@ -4,7 +4,7 @@ public class CardTest {
 
 	public static void main(String[] args) {
 		System.out.println("Card.width = " + Card.width);
-		System.out.println("Card.hight = " + Card.height);
+		System.out.println("Card.height = " + Card.height);
 		
 		Card1 c1 = new Card1();
 		c1.kind = "HEART";
@@ -28,7 +28,7 @@ public class CardTest {
 		System.out.println("c2 is " + c2.kind + "," + c1.number +
 				"and size is (" + c2.width + "," + c2.height + ")");
 				
-		
+		Card1 c3 = c1;
 
 	}
 
