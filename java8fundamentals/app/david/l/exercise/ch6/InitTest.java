@@ -6,7 +6,7 @@ public class InitTest {
 	int y=x;	//instance variable
 
 	void method1(){
-		int i;	//local variable
+		int i=0;	//local variable
 		int j=i;
 	}
 
