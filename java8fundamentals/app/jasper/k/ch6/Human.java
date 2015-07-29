@@ -1,6 +1,6 @@
 package jasper.k.ch6;
 
-class Human {
+public class Human {
 	String name;
 	String gender;
 	static long count;
