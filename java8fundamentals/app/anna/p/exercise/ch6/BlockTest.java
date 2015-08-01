@@ -19,5 +19,9 @@ class BlockTest {
 		
 		System.out.println("BlockTest bt2 = new BlockTest();");
 		BlockTest bt2 = new BlockTest();
+		
+		Document doc = new Document();
+		doc.name = "java.txt";
+		
 	}
 }

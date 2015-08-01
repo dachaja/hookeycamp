@@ -1,7 +1,21 @@
 package anna.p.exercise.ch6;
 
 public class CardTest {
+	
+	static int n1 = 10;
+	int n2 = 10;
+	
+	public CardTest() {
+		this.n1 = n1;
+	}
+	
+	public static void add() {
+	}
+	
 	public static void main(String[] args) {
+		
+		int n1 = 20;
+		
 		System.out.println("Card.width = " + Card.width);
 		System.out.println("Card.height = " + Card.height);
 		
