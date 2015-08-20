@@ -1,5 +1,6 @@
 package anna.p.exercise.ch6;
 
+
 class MyMathTest {
 	public static void main(String[] args) {
 		MyMath mm = new MyMath();
@@ -12,5 +13,10 @@ class MyMathTest {
 		System.out.println("subtract(5L, 3L) = " + result2);
 		System.out.println("multiply(5L, 3L) = " + result3);
 		System.out.println("divide(5L, 3L) = " + result4);
+		
+		Object obj = new Object();
+		
+		mm.toString();
+		
 	}
 }

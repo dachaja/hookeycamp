@@ -14,4 +14,13 @@ public class MyMath {
 	double divide(double a, double b) {
 		return a / b;
 	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("This is MyMath.");
+		
+		return null;
+	}
 }

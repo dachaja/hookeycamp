@@ -1,7 +1,7 @@
 package anna.p.exercise;
 
 public class AndOperator {
-	public static void main(String[] args) {
+	public static void main(String...args) {
 		int i = 10; // primitive data type, initial i variable.
 		int j = 15; // primitive data type, initial j variable.
 		boolean b;	// primitive data type, Declaration.
