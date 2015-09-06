@@ -8,6 +8,17 @@ public class Student2 {
 	private int engScore;
 	private int mathScore;
 	
+	public Student2() { }
+	
+	public Student2(String name, int classRoom, int number, int korScore, int engScore, int mathScore) {
+		this.name = name;
+		this.classRoom = classRoom;
+		this.number = number;
+		this.korScore = korScore;
+		this.engScore = engScore;
+		this.mathScore = mathScore;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -48,7 +59,11 @@ public class Student2 {
 		return this.engScore + this.korScore + this.mathScore;
 	}
 	public float getAverage() {
-		float average = (float)Math.round(((float)getTotal() / 3) * 100) / 100;
+		float average = (float)Math.round(((float)getTotal() / 3) * 10) / 10;
 		return average;
+	}
+	public String info() {
+		return getName() + "," + getClassRoom() + "," + getNumber() + "," + getKorScore() + "," + 
+				getEngScore() + "," + getMathScore() + "," + getTotal() + "," + getAverage();
 	}
 }
