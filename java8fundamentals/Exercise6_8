@@ -1,0 +1,3 @@
+- class Variable : width , height.
+- Instance variable : kind , num.
+- Local Variable : k, n.

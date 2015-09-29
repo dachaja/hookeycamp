@@ -10,6 +10,20 @@ public class Student {
 		private int total;
 		private float average;
 		
+		public Student(String name, int classroom, int num, int kor, int eng, int math) {
+			this.name = name;
+			this.classroom = classroom;
+			this.num = num;
+			this.kor = kor;
+			this.eng = eng;
+			this.math = math;
+			this.total = getTotal();
+			this.average = getAverage();
+			
+		}
+		public Student() {
+			// TODO Auto-generated constructor stub
+		}
 		public float getAverage() {
 			average = (float)Math.round(((float)total/3*10))/10;
 			return average;
@@ -59,6 +73,9 @@ public class Student {
 		}
 		public void setMath(int math) {
 			this.math = math;
+		}
+		public String info() {
+			return getName() +","+ getClassroom()+","+getNum() +","+ getKor() +","+ getEng() +","+ getTotal() +","+ getAverage();
 		}
 	
 	
