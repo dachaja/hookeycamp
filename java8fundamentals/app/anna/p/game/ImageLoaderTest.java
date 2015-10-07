@@ -16,6 +16,7 @@ public class ImageLoaderTest extends Applet implements Runnable{
 	private Image offImage;
 	private Graphics offScreen;
 	
+	@Override
 	public void init() {
 		setSize(300,200);
 		loader = ImageLoader.getInstance();
@@ -33,8 +34,8 @@ public class ImageLoaderTest extends Applet implements Runnable{
 		try {
 			URL url = new URL("file:/Users/adokalways/Documents/"
 					+ "Projects/dachaja/hookeycamp/java8fundamentals/"
-					+ "app/anna/p/game/images/imageloader/");
-			loader.load(this, url, "image", images);
+					+ "app/anna/p/game/images/");
+			loader.load(this, url, "imageloader", images);
 			
 			thread = new Thread(this);
 			thread.start();
