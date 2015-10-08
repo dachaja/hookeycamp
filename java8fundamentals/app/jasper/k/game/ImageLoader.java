@@ -100,5 +100,4 @@ public class ImageLoader implements Runnable{
 			}
 		}
 	}
-
 }

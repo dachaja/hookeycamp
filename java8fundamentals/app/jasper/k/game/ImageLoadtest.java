@@ -16,6 +16,7 @@ public class ImageLoadtest extends Applet implements Runnable {
 	private Image offImage;
 	private Graphics offScreen;
 	
+	@Override
 	public void init() {
 		setSize(300,200);
 		loader = ImageLoader.getInstance();
@@ -29,8 +30,9 @@ public class ImageLoadtest extends Applet implements Runnable {
 	@Override
 	public void start() {
 		try {
-			URL url = new URL("file:/home/hookey/Documents/projects/workspace/hookeycamp/java8fundamentals/app/jasper/k/game/images/imageloader/");
-			loader.load(this, url, "image", images);
+			URL url = new URL("file:/home/hookey/Documents/projects/workspace/"
+					+ "hookeycamp/java8fundamentals/app/jasper/k/game/images/");
+			loader.load(this, url, "imageloader", images);
 			
 			thread = new Thread(this);
 			thread.start();
@@ -74,7 +76,7 @@ public class ImageLoadtest extends Applet implements Runnable {
 		offScreen.drawString("LOADING COMPLETED", 80, 80);
 		
 		Image angel1 = loader.getImage("angel1");
-		offScreen.drawImage(offImage, 0, 0, this);
+		offScreen.drawImage(angel1, 120, 120, this);
 		g.drawImage(offImage, 0, 0, this);
 	}
 	
