@@ -1,4 +1,4 @@
-package anna.p.ch1;
+package elly.c.ch1;
 
 public class HelloWorld {
 	public static void main(String[] args) {
