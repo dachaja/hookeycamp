@@ -6,8 +6,9 @@ public class ReadInput {
 	public static char readChar() {
 		char c = '\u0000';
 		//int input;
+		int input;
 		try {
-			int input = System.in.read();
+			input = System.in.read();
 			if(input != -1) {
 				c = (char)input;
 			}
