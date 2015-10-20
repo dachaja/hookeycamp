@@ -5,7 +5,14 @@ public class Exercise4_15 {
 		int number = 12321;
 		int tmp = number;
 		
+		String str = new String("test");
+		
 		int result = 0;
+		
+		int sumOfTwoNumbers;
+		int sum_of_two_numbers;
+		int sum$of$two$numbers;
+		int n2um;
 		
 		while(tmp != 0) {
 			result = (result * 10) + (tmp % 10);
