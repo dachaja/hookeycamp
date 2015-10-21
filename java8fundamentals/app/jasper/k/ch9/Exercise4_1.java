@@ -1,6 +1,7 @@
 package jasper.k.ch9;
 
 public class Exercise4_1 {
+	
 	public static boolean exercise411(int x){
 		if (x > 10 && x < 20)
 			return true;
@@ -70,5 +71,11 @@ public class Exercise4_1 {
 		System.out.println(exercise418("yes"));
 		System.out.println(exercise418("no"));
 		System.out.println(exercise418("Yes"));
+		
+		try{
+			
+		} finally {
+			
 		}
+	}
 }

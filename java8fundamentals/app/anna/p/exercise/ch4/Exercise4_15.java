@@ -24,5 +24,10 @@ public class Exercise4_15 {
 		} else {
 			System.out.println(number + "is not palindrome.");
 		}
+		
+		char ch = 'A';
+		if(ch > 'A' || ch < 'Z') {
+			
+		}
 	}
 }
