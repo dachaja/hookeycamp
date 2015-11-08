@@ -73,5 +73,43 @@ public class StringComparison {
 		
 		String s5 = "Hello".substring(1);
 		String s6 = "Hello".substring(1, 4);
+		
+		String oldStr = new String("tooth");
+		
+		// o in oldStr will be replaced by e. 
+		// newStr will contain "teeth"
+		String newStr = oldStr.replace('o', 'e');
+		
+		String str8 = "This is a Java program";
+		
+		// Test str8, if it starts with "This"
+		if(str8.startsWith("This")) {
+			System.out.println("String starts with This");
+		} else {
+			System.out.println("String does not start with This");
+		}
+		
+		// Test str8, if it ends with "program"
+		if(str8.endsWith("program")) {
+			System.out.println("String ends with program");
+		} else {
+			System.out.println("String does not end with program");
+		}
+		
+		String str9 = "AL,FL,NY,CA,GA";
+		
+		// Split str using a comma as the delimiter
+		String[] parts = str9.split(",");
+		System.out.println(str9);
+		
+		for (String part : parts) {
+			System.out.println(part);
+		}
+		
+		String str11 = "AL,FL";
+		String str10 = "AL" + "," + "FL" + "," + "NY";
+		
+		String str12 = String.join(",", "AL", "FL", "NY", "CA", "GA");
+		
 	}
 }
