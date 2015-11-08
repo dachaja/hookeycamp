@@ -13,6 +13,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 GET		/hello						controllers.Hello.hello(name: String?="Anna")
 GET		/signin						controllers.SignIn.signin()
 GET		/html5						controllers.Hello.html5()
+GET		/ch2							controllers.Apocalypse.original()
 
 # warehouse
 GET		/products/					controllers.Products.list()
