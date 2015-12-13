@@ -3,7 +3,7 @@
   max-width: 800px;
 }
 
-.Header {
+/* header {
   background-color: #7695FE;
   border: thin #336699 solid;
   padding: 10px;
@@ -11,18 +11,25 @@
   text-align: center;
 }
 
-.Header h1 {
+header h1 {
   margin: 0px;
   color: white;
   font-size: xx-large;
 }
+*/
+header .SiteHeader {
+	padding: 5px;
+	padding-bottom: 2px;
+	background: #6B6E3F;
+	width: 854px;
+}
 
-.Header .Teaser {
+header .Teaser {
   margin: 0px;
   font-weight: bold;
 }
 
-.Header .Byline {
+header .Byline {
   font-style: italic;
   font-size: small;
   margin: 0px;
@@ -54,15 +61,74 @@
   margin-top: 0px;
 }
 
-.Footer {
+footer {
   text-align: center;
   font-size: x-small;	
 }
 
-.Footer .Disclaimer {
+footer .Disclaimer {
   font-style: italic;
 }
 
-.Footer p {
+footer p {
   margin: 3px;
+}
+
+/* Format the floating figure box. */
+.FloatFigure {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;	
+}
+/* Format the figure caption text. */
+.FloatFigure figcaption {
+	max-width: 200px;
+	font-size: small;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+.PullQuote {
+	float: right;
+	max-width: 300px;
+	border-top: thin black solid;
+	border-bottom: thick black solid;
+	font-size: 30px;
+	line-height: 130%;
+	font-style: italic;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.PullQuote img{
+	vertical-align: bottom;
+}
+
+aside.NavSidebar {
+	position: absolute;
+	top: 179px;
+	left: 0px;
+	padding: 5px 15px 0px 15px;
+	width: 203px;
+	min-height: 1500px;
+	background-color: #eee;
+	font-size: small;
+}
+aside.NavSidebar h2 {
+	color: #6B6E3F;
+	border-bottom: thin #6B6E3F solid;
+	margin-bottom: 0px;
+	margin-top:	20px;
+}
+aside.NavSidebar ul {
+	padding-left: 15px;
+}
+aside.NavSidebar li {
+	margin-bottom: 3px;
+}
+aside.NavSidebar img {
+	margin-top: 10px;
+	border: white solid 4px;
 }
