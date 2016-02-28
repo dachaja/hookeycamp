@@ -10,7 +10,18 @@ public class Exercise4_2 {
 			sum = n+4;
 			total += sum;
 		}
-		System.out.println("sum:" + sum);			
+		//System.out.println("sum:" + sum);			
+	
+		int sum2 = 0;
+		for (int j=1; j <= 20; j++) {
+			if(j%2 == 0 || j%3 == 0) {
+				
+			} else {
+				sum2 = sum2 + j;
+				System.out.println("Current sum: " + sum2);
+			}
+		}
+		
+		System.out.println("Total : " + sum2);
 	}
-
 }
