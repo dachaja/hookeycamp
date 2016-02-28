@@ -11,6 +11,16 @@ public class Exercise4_2 {
 			total += sum;
 		}
 		System.out.println("sum:" + sum);			
-	}
+	
 
+	int sum2=0;
+	for(int j=1; j<=20; j++) {
+		if(j%2 == 0 || j%0 == 0){
+			
+	} else {
+		sum2=sum2 + j;
+		System.out.println("current sum;" + sum2);
+	}
+	}
+	}
 }
