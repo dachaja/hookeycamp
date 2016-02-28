@@ -23,8 +23,16 @@ public class Flowex3 {
 				grade ="C";
 			}
 			
+<<<<<<< HEAD
 		} else if(score >=80){
 			grade ="B";
+=======
+					}else {
+						grade ="C";
+					}
+		 if(score >=80){
+			grade ='B';
+>>>>>>> origin/master
 			
 		}
 		else {
