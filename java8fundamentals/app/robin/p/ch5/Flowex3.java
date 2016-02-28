@@ -24,7 +24,7 @@ public class Flowex3 {
 					}else {
 						grade ="C";
 					}
-		else if(score >=80){
+		 if(score >=80){
 			grade ='B';
 			
 		}
