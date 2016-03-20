@@ -9,10 +9,17 @@ public class Exercise4_3 {
 			sum = sum+i;
 			totalSum += sum;
 			
-			
+			System.out.println("sum = " + sum);
 			
 		}
 		System.out.println("Total = "+ totalSum);
+		
+		
+		int sum2 = 0;
+		int totalsum2 = 0;
+		for (int j = 1; j <= 10; j++) {
+			sum2 = sum2 + j;
+			totalsum2 += sum2;
+		}
 	}
-
 }

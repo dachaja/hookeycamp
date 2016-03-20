@@ -13,6 +13,13 @@ public class JavaExercise4_1 {
 		boolean answer = (year % 400 == 0 || year % 4 == 0 && year % 100 > 0)? true : false;
 	
 		boolean powerOn = false;
+		if(!powerOn)
+			powerOn = true;
+		
+		String str = "yes";
+		if(str == "yes") {
+			System.out.println("true");
+		}
 		
 //		str answer1 = "yes";        
 				

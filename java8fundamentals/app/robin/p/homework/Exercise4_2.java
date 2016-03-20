@@ -16,7 +16,7 @@ public class Exercise4_2 {
 	int sum2=0;
 	for(int j=1; j<=20; j++) {
 		if(j%2 == 0 || j%0 == 0){
-			
+		// %2 == 0    2의 배수	
 	} else {
 		sum2=sum2 + j;
 		System.out.println("current sum;" + sum2);

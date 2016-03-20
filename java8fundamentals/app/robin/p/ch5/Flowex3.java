@@ -19,17 +19,17 @@ public class Flowex3 {
 				grade += "+";
 			} else if (score < 84 ){
 				grade += "-";
+			}else {
+				grade ="C";
 			}
 			
-					}else {
-						grade ="C";
-					}
-		 if(score >=80){
-			grade ='B';
+		} else if(score >=80){
+			grade ="B";
+
 			
 		}
 		else {
-			grade = 'C';
+			grade = "C";
 		}
 		
 		// grade = (score >=90) ? 'A' : ((score >=80 ? 'B' : 'C'));
