@@ -1,5 +1,7 @@
 package anna.p.ch5;
 
+import anna.p.ch6.StaticTest;
+
 public class SwitchEx2 {
 	public static void main(String[] args) {
 		int age = 20;
@@ -67,6 +69,7 @@ public class SwitchEx2 {
 		}
 		
 		// Using an switch statement
+		
 		
 	}
 }

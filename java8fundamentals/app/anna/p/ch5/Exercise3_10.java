@@ -1,6 +1,8 @@
 package anna.p.ch5;
 
 public class Exercise3_10 {
+	public static int age = 10;
+	
 	public static void main(String[] args) {
 		char ch = 'G';
 		
