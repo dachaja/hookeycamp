@@ -10,9 +10,13 @@ public class JavaExercise4_13 {
 		for(int i=0; i < value.length() ; i++) {
 			ch = value.charAt(i);
 			
-			if( '0' <= ch && ch <= '9');
+			if( '0' <= ch && ch <= '9'){
 				isNumber = true;
-			    break;
+			    //break;
+			} else {
+				isNumber = false;
+				break;
+			}
 			
 		}
 		
