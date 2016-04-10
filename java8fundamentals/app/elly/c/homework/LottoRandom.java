@@ -5,26 +5,34 @@ public class LottoRandom {
 
 		int[] lottoNumber = new int[7];  
 	    {  
-	        lottoNumber[0] = (int) ((49 * Math.random()) + 1);  
-	        lottoNumber[1] = (int) ((49 * Math.random()) + 1);  
-	        lottoNumber[2] = (int) ((49 * Math.random()) + 1);  
-	        lottoNumber[3] = (int) ((49 * Math.random()) + 1);  
-	        lottoNumber[4] = (int) ((49 * Math.random()) + 1);  
-	        lottoNumber[5] = (int) ((49 * Math.random()) + 1); 
-	        lottoNumber[6] = (int) ((49 * Math.random()) + 1);
+	    		for (int i = 0; i < lottoNumber.length; i++) {
+	    			int randomN = (int)((49 * Math.random()) + 1);
+	    			
+	    			lottoNumber[i] = getRandomN(lottoNumber); 
+				}
 	    }  
 
 	    System.out.println("Lottery Numbers: ");
 
 
 	    {  
-	        System.out.print(lottoNumber[0] + " " );
-	        System.out.print(lottoNumber[1] + " " );
-	        System.out.print(lottoNumber[2] + " " );
-	        System.out.print(lottoNumber[3] + " " );
-	        System.out.print(lottoNumber[4] + " " );
-	        System.out.print(lottoNumber[5] + " " );
-	        System.out.print(lottoNumber[6] + " " );
+	    		for (int i = 0; i < lottoNumber.length; i++) {
+	    			System.out.print(lottoNumber[i] + " " );
+				}
 	    }  
-}
+	}
+	
+	public static int getRandomN(int[] curr) {
+		int randomN = (int)((49 * Math.random()) + 1);
+		
+		for (int i = 0; i < curr.length; i++) {
+			if(curr[i] == randomN) {
+//				while (true) {
+//					
+//					
+//				}
+			}
+		}
+		return randomN;
+	}
 }
