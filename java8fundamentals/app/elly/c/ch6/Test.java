@@ -2,6 +2,13 @@ package elly.c.ch6;
 
 public class Test {
 	public static void main(String[] args) {
+		
+		InitTest.z = 0;
+		InitTest it = new InitTest();
+		it.y = 8;
+		
+		
+		
 		Human anna = new Human();
 		System.out.println(anna.name);
 		System.out.println(anna.gender);
